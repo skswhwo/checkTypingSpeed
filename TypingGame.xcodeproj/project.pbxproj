@@ -13,6 +13,8 @@
 		E2B1FD7F1DE72CC100166FA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B1FD7D1DE72CC100166FA6 /* Main.storyboard */; };
 		E2B1FD811DE72CC100166FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B1FD801DE72CC100166FA6 /* Assets.xcassets */; };
 		E2B1FD841DE72CC100166FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B1FD821DE72CC100166FA6 /* LaunchScreen.storyboard */; };
+		E2B1FD911DE72E8F00166FA6 /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2B1FD8F1DE72E8F00166FA6 /* english.txt */; };
+		E2B1FD921DE72E8F00166FA6 /* korean.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2B1FD901DE72E8F00166FA6 /* korean.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E2B1FD801DE72CC100166FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B1FD831DE72CC100166FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B1FD851DE72CC100166FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B1FD8F1DE72E8F00166FA6 /* english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = english.txt; sourceTree = "<group>"; };
+		E2B1FD901DE72E8F00166FA6 /* korean.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = korean.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				E2B1FD751DE72CC100166FA6 /* main.m */,
+				E2B1FD8F1DE72E8F00166FA6 /* english.txt */,
+				E2B1FD901DE72E8F00166FA6 /* korean.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B1FD841DE72CC100166FA6 /* LaunchScreen.storyboard in Resources */,
+				E2B1FD911DE72E8F00166FA6 /* english.txt in Resources */,
 				E2B1FD811DE72CC100166FA6 /* Assets.xcassets in Resources */,
 				E2B1FD7F1DE72CC100166FA6 /* Main.storyboard in Resources */,
+				E2B1FD921DE72E8F00166FA6 /* korean.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +320,7 @@
 				E2B1FD8A1DE72CC100166FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
